@@ -1,4 +1,4 @@
-api_id = "enter your api_id"
-api_hash = "enter your api_hash"
-bot_token = "enter your bot token"
-auth_users = [7890781002,6373737837]
+api_id = "27058143"
+api_hash = "c569ea4f5ade3fc70d2bb1fd162d9dc9"
+bot_token = "7692348851:AAFRC9BX8hXiWi0ZuVRXCZbcjTu5WSTbNaI"
+auth_users = [7692348851:AAFRC9BX8hXiWi0ZuVRXCZbcjTu5WSTbNaI]
