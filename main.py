@@ -59,11 +59,11 @@ def run_flask():
     app.run(host="0.0.0.0", port=8080) # Use here 8080 port,if you are deploying it on koyeb
     
 image_list = [
-"https://graph.org/file/8b1f4146a8d6b43e5b2bc-be490579da043504d5.jpg",
-"https://graph.org/file/b75dab2b3f7eaff612391-282aa53538fd3198d4.jpg",
-"https://graph.org/file/38de0b45dd9144e524a33-0205892dd05593774b.jpg",
-"https://graph.org/file/be39f0eebb9b66d7d6bc9-59af2f46a4a8c510b7.jpg",
-"https://graph.org/file/8b7e3d10e362a2850ba0a-f7c7c46e9f4f50b10b.jpg",
+"https://files.catbox.moe/l5kelu.jpg",
+"https://files.catbox.moe/vm52uq.jpg",
+"https://files.catbox.moe/ado74a.jpg",
+"https://files.catbox.moe/obno6z.jpg",
+"https://files.catbox.moe/sgwqv2.jpg",
 ]
 print(4321)
 #bot = Client(
