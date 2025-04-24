@@ -40,9 +40,9 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Bot credentials from environment variables (Render compatible)
-API_ID = int(os.environ.get("API_ID", 27058143))
-API_HASH = os.environ.get("API_HASH", "c569ea4f5ade3fc70d2bb1fd162d9dc9")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7975806032:AAEyCXWUeYYvSV-LZos1IQZBjVWp-2lCRpc")
+API_ID = int(os.environ.get("API_ID",  25051520))
+API_HASH = os.environ.get("API_HASH", "91c0e86e56bb2f711454d86779091033")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8118302536:AAGOyYKO0FFVR7HuE3IO2ZMj8xB_Z56lhqs")
 
 # Initialize Bot Globally (IMPORTANT FIX)
 bot = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -68,9 +68,9 @@ image_list = [
 print(4321)
 #bot = Client(
     #"bot",
-    #api_id=27058143,
-    #api_hash=c569ea4f5ade3fc70d2bb1fd162d9dc9,
-    #bot_token=7975806032:AAEyCXWUeYYvSV-LZos1IQZBjVWp-2lCRpc)
+    #api_id=25051520,
+    #api_hash=91c0e86e56bb2f711454d86779091033,
+    #bot_token=8118302536:AAGOyYKO0FFVR7HuE3IO2ZMj8xB_Z56lhqs)
 
 @bot.on_message(filters.command(["start"]))
 async def start(bot, message):
