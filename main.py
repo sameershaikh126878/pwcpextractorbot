@@ -359,7 +359,7 @@ async def pwwp_callback(bot, callback_query):
     await callback_query.answer()
     
     if user_id not in auth_users:
-        await bot.send_message(callback_query.message.chat.id, f"**You Are Not Subscribed To This Bot DM for access @DREAMM_CA**")
+        await bot.send_message(callback_query.message.chat.id, f"**You Are Not Subscribed To This Bot DM for access @A_S_9162**")
         return
         
     THREADPOOL.submit(asyncio.run, process_pwwp(bot, callback_query.message, user_id))
